@@ -23,3 +23,4 @@ Then look for the file :
 
 
 # webhook test
+# webhook automatic trigger test
