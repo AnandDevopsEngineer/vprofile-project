@@ -25,3 +25,4 @@ Then look for the file :
 # webhook test
 # webhook automatic trigger test
 # webhook test 2
+ Day 3 CI/CD lab
