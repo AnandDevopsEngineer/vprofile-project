@@ -18,7 +18,7 @@ pipeline {
 		
 		stage('Docker Build'){
 			steps {
-				sh 'docker build -t vprofile-app:jenkins-${BUILD_NUMBER} -f Docker-files/wrong/Dockerfile .'
+				sh 'docker build -t vprofile-app:jenkins-${BUILD_NUMBER} -f Docker-files/app/Dockerfile .'
 			}
 		}
 
