@@ -51,7 +51,7 @@ pipeline {
 					
 					docker run -d \
 					--name vprofile-app \
-					--network broken-network \
+					--network compose_default \
 					-p 8081:8080 \
 					ananddevopsengineer/vprofile-app:jenkins-${BUILD_NUMBER}
 				'''
